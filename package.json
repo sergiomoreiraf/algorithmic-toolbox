@@ -1,0 +1,17 @@
+{
+  "name": "algorithms",
+  "description": "Source code for Data Structures and Algorithms Specialization",
+  "scripts": {
+    "test": "jest "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergiomoreiraf/algorithms.git"
+  },
+  "homepage": "https://github.com/sergiomoreiraf/algorithms#readme",
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "mock-stdin": "^0.3.1"
+  },
+  "dependencies": {}
+}
