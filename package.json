@@ -2,7 +2,8 @@
   "name": "algorithms",
   "description": "Source code for Data Structures and Algorithms Specialization",
   "scripts": {
-    "test": "jest "
+    "test": "jest",
+    "test:debug": "node --inspect-brk node_modules/.bin/jest --runInBand"
   },
   "repository": {
     "type": "git",
