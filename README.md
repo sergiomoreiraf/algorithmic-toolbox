@@ -2,6 +2,8 @@
 
 Source code for Data Structures and Algorithms Specialization.
 
+This is only a boilerplate with the first challenge avaiable.
+
 Fist run **npm install**.
 
 To run one challenge with debug enabled, on root folder type
