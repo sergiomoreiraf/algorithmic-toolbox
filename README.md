@@ -90,6 +90,8 @@ An example is provided on the first excercice. It's commented out.
 
 - Please no discussions (issues, wiki, etc) about the exercices, unless it's related to the boilerplate provided here. These must be done on the [Discussion Forums](https://www.coursera.org/learn/algorithmic-toolbox/discussions).
 
+- If you fork to your own repository, do not publish the solution, or set the repo for private.
+
 - Please no submits or discuss about the solutions, even if it's a partial or wrong solution.
 
 - Do not copy or provide excercice instructions.
