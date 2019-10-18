@@ -8,6 +8,7 @@ describe.skip('Fibonacci Number', () => {
   let func;
   beforeEach(() => {
     jest.resetModules();
+    jest.resetAllMocks();
     func = require('./fibonacci');
   });
   test('(10) = 55', () => {

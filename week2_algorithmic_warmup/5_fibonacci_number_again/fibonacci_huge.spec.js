@@ -8,6 +8,7 @@ describe.skip('Fibonacci Number Again', () => {
   let func;
   beforeEach(() => {
     jest.resetModules();
+    jest.resetAllMocks();
     func = require('./fibonacci_huge');
   });
   test('(239 1000) = 161', () => {

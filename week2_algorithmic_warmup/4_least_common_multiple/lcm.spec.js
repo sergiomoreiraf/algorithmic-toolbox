@@ -8,6 +8,7 @@ describe.skip('Least Common Multiple', () => {
   let func;
   beforeEach(() => {
     jest.resetModules();
+    jest.resetAllMocks();
     func = require('./lcm');
   });
   test('(6 8) = 24', () => {

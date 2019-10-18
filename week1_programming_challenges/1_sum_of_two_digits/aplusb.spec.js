@@ -8,6 +8,7 @@ describe.skip('Sum of 2 numbers', () => {
   let func;
   beforeEach(() => {
     jest.resetModules();
+    jest.resetAllMocks();
     func = require('./aplusb');
   });
   test('2 + 3 = 5', () => {

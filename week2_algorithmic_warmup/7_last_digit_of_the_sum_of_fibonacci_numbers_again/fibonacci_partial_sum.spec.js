@@ -8,6 +8,7 @@ describe.skip('Last Digit of the Sum of Fibonacci Numbers Again', () => {
   let func;
   beforeEach(() => {
     jest.resetModules();
+    jest.resetAllMocks();
     func = require('./fibonacci_partial_sum');
   });
   test('(3 7) = 1', () => {

@@ -8,6 +8,7 @@ describe.skip('Last Digit of a Large Fibonacci Number', () => {
   let func;
   beforeEach(() => {
     jest.resetModules();
+    jest.resetAllMocks();
     func = require('./fibonacci_last_digit');
   });
   test('(3) = 2', () => {

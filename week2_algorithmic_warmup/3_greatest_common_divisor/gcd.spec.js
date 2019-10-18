@@ -8,6 +8,7 @@ describe.skip('Greatest Common Divisor', () => {
   let func;
   beforeEach(() => {
     jest.resetModules();
+    jest.resetAllMocks();
     func = require('./gcd');
   });
   test('(18 35) = 1', () => {

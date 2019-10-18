@@ -8,6 +8,7 @@ describe.skip('Last Digit of the Sum of Squares of Fibonacci Numbers', () => {
   let func;
   beforeEach(() => {
     jest.resetModules();
+    jest.resetAllMocks();
     func = require('./fibonacci_sum_squares');
   });
   test('(7) = 3', () => {
