@@ -11,9 +11,16 @@ rl.on('line', readLine);
 function readLine(line) {
   var a = parseInt(line.split(' ')[0]);
   var b = parseInt(line.split(' ')[1]);
-  console.log(a + b + '');
-  //process.stdout.write(a + b + '');
+  main(a, b);
   process.exit();
+}
+
+function main(a, b) {
+  // write your code
+  const result = a + b;
+  // then output the result with console.log or process.stdout
+  console.log(result + '');
+  //process.stdout.write(result + '');
 }
 
 module.exports = readLine;
