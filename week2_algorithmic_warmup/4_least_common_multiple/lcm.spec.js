@@ -4,7 +4,7 @@ mockProcess.mockProcessExit();
 const mockStdout = mockProcess.mockProcessStdout();
 const mockLog = mockProcess.mockConsoleLog();
 
-describe('Least Common Multiple', () => {
+describe.skip('Least Common Multiple', () => {
   let func;
   beforeEach(() => {
     jest.resetModules();
