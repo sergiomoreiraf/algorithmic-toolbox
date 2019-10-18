@@ -9,8 +9,8 @@ const rl = readline.createInterface({
 rl.on('line', readLine);
 
 function readLine(line) {
-  var a = parseInt(line.split(' ')[0], 10);
-  var b = parseInt(line.split(' ')[1], 10);
+  const a = parseInt(line.split(' ')[0]);
+  const b = parseInt(line.split(' ')[1]);
   main(a, b);
   process.exit();
 }
