@@ -12,6 +12,6 @@ describe.skip('Greatest Common Divisor', () => {
   });
   test('(18 35) = 1', () => {
     func('18 35');
-    expect(mockLog).toHaveBeenLastCalledWith(1);
+    expect(mockLog).toHaveBeenLastCalledWith('1');
   });
 });

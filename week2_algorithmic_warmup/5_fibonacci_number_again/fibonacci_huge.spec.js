@@ -12,6 +12,6 @@ describe('Fibonacci Number Again', () => {
   });
   test('(239 1000) = 161', () => {
     func('239 1000');
-    expect(mockLog).toHaveBeenLastCalledWith(161);
+    expect(mockLog).toHaveBeenLastCalledWith('161');
   });
 });

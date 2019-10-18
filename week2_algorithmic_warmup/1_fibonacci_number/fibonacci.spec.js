@@ -12,6 +12,6 @@ describe.skip('Fibonacci Number', () => {
   });
   test('(10) = 55', () => {
     func('10');
-    expect(mockLog).toHaveBeenLastCalledWith(55);
+    expect(mockLog).toHaveBeenLastCalledWith('55');
   });
 });

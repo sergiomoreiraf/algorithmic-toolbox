@@ -12,6 +12,6 @@ describe.skip('Least Common Multiple', () => {
   });
   test('(6 8) = 24', () => {
     func('6 8');
-    expect(mockLog).toHaveBeenLastCalledWith(24);
+    expect(mockLog).toHaveBeenLastCalledWith('24');
   });
 });

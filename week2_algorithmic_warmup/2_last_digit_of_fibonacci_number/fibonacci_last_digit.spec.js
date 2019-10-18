@@ -12,6 +12,6 @@ describe.skip('Last Digit of a Large Fibonacci Number', () => {
   });
   test('(3) = 2', () => {
     func('3');
-    expect(mockLog).toHaveBeenLastCalledWith(2);
+    expect(mockLog).toHaveBeenLastCalledWith('2');
   });
 });
