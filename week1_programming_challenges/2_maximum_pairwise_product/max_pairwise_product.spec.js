@@ -12,7 +12,7 @@ describe.skip('Maximum Pairwise Product', () => {
     func = require('./max_pairwise_product');
   });
 
-  test('3, [1, 2, 3] = 6', () => {
+  test('(3, [1 2 3]) = 6', () => {
     func('3');
     func('1 2 3');
     expect(mockLog).toHaveBeenLastCalledWith('6');
