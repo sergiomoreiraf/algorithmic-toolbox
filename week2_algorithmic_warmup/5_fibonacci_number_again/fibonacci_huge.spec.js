@@ -4,7 +4,7 @@ mockProcess.mockProcessExit();
 const mockStdout = mockProcess.mockProcessStdout();
 const mockLog = mockProcess.mockConsoleLog();
 
-describe('Fibonacci Number Again', () => {
+describe.skip('Fibonacci Number Again', () => {
   let func;
   beforeEach(() => {
     jest.resetModules();
