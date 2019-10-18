@@ -1,18 +1,21 @@
 {
   "name": "algorithms",
-  "description": "Source code for Data Structures and Algorithms Specialization",
+  "description": "Boilerplate code for Algorithmic Toolbox on Coursera",
   "scripts": {
-    "test": "jest",
-    "test:debug": "node --inspect-brk node_modules/.bin/jest --runInBand"
+    "test": "jest --watch",
+    "debug": "node --inspect-brk node_modules/.bin/jest --runInBand --forceExit"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sergiomoreiraf/algorithms.git"
+    "url": "git+https://github.com/sergiomoreiraf/algorithmic-toolbox.git"
   },
-  "homepage": "https://github.com/sergiomoreiraf/algorithms#readme",
+  "homepage": "https://github.com/sergiomoreiraf/algorithmic-toolbox#readme",
   "devDependencies": {
+    "@types/jest": "^24.0.18",
     "jest": "^24.9.0",
-    "mock-stdin": "^0.3.1"
+    "jest-mock-process": "^1.2.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.3"
   },
   "dependencies": {}
 }
