@@ -9,7 +9,7 @@ const rl = readline.createInterface({
 rl.on('line', readLine);
 
 function readLine(line) {
-  m = paseInt(line);
+  const m = parseInt(line);
   main(m);
   process.exit();
 }
