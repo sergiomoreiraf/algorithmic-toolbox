@@ -20,7 +20,7 @@ function readLine(line) {
   }
   if (a.length === 0) {
     a = line.split(' ').map(x => {
-      parseInt(x);
+      return parseInt(x);
     });
     return;
   }
@@ -29,7 +29,7 @@ function readLine(line) {
     return;
   }
   b = line.split(' ').map(x => {
-    parseInt(x);
+    return parseInt(x);
   });
   main(n, a, m, b);
   process.exit();
