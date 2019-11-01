@@ -24,6 +24,8 @@ function readLine(line) {
   }
 }
 
-function main(n, p) {}
+function main(n, p) {
+  // your code here
+}
 
 module.exports = readLine;
