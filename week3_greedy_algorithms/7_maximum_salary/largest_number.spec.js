@@ -4,7 +4,7 @@ mockProcess.mockProcessExit();
 const mockStdout = mockProcess.mockProcessStdout();
 const mockLog = mockProcess.mockConsoleLog();
 
-describe('Maximum Salary', () => {
+describe.skip('Maximum Salary', () => {
   let func;
   beforeEach(() => {
     jest.resetModules();

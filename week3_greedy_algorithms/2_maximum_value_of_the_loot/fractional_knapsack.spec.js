@@ -4,7 +4,7 @@ mockProcess.mockProcessExit();
 const mockStdout = mockProcess.mockProcessStdout();
 const mockLog = mockProcess.mockConsoleLog();
 
-describe('Maximum Value of the Loot', () => {
+describe.skip('Maximum Value of the Loot', () => {
   let func;
   beforeEach(() => {
     jest.resetModules();

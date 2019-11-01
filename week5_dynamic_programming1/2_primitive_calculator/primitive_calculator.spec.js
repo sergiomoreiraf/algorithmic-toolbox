@@ -4,7 +4,7 @@ mockProcess.mockProcessExit();
 const mockStdout = mockProcess.mockProcessStdout();
 const mockLog = mockProcess.mockConsoleLog();
 
-describe('Primitive Calculator', () => {
+describe.skip('Primitive Calculator', () => {
   let func;
   beforeEach(() => {
     jest.resetModules();

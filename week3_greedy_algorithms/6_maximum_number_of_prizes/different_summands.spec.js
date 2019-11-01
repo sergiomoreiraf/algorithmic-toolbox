@@ -4,7 +4,7 @@ mockProcess.mockProcessExit();
 const mockStdout = mockProcess.mockProcessStdout();
 const mockLog = mockProcess.mockConsoleLog();
 
-describe('Maximum Number of Prizes', () => {
+describe.skip('Maximum Number of Prizes', () => {
   let func;
   beforeEach(() => {
     jest.resetModules();

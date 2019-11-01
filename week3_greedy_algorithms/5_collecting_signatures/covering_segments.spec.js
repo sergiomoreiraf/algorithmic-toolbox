@@ -4,7 +4,7 @@ mockProcess.mockProcessExit();
 const mockStdout = mockProcess.mockProcessStdout();
 const mockLog = mockProcess.mockConsoleLog();
 
-describe('Collecting Signatures', () => {
+describe.skip('Collecting Signatures', () => {
   let func;
   beforeEach(() => {
     jest.resetModules();
